@@ -28,7 +28,7 @@ const Navbar = () => {
                 <div className="container">
                     <div className="nav-wrapper">
                         <a href="/" className="brand-logo">
-                            <img src={require("../assets/images/logo.png")} alt="Crownfest" className="logo" />
+                            <img src={require("../assets/images/logo.png")} alt="Crownforte" className="logo" />
                         </a>
 
                         <ul className="dn-mobile ul-nav" id="nav-mobile-2">
@@ -55,6 +55,11 @@ const Navbar = () => {
                                     <span>Services</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="#testimonials" className="">
+                                    <span>Testimonials</span>
+                                </a>
+                            </li>
                             <li className="contact-us-li">
                                 <a href="mailto:crownforteconsults@gmail.com" className="">
                                     <button className="nav-pry-btn-2 btn pointer">Book Your Free Consultation Now</button>
@@ -68,7 +73,7 @@ const Navbar = () => {
             <ul id="slide-out" className="sidenav">
                 <div className="sidenav-logo">
                     <a href="/" className="sidenav-close">
-                        <img src={require("../assets/images/logo.png")} alt="Crownfest" className="logo" />
+                        <img src={require("../assets/images/logo.png")} alt="Crownforte" className="logo" />
                     </a>
                 </div>
                 <li>
@@ -84,6 +89,11 @@ const Navbar = () => {
                 <li>
                     <a href="#services" className="sidenav-close">
                         <span>Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#testimonials" className="sidenav-close">
+                        <span>Testimonials</span>
                     </a>
                 </li>
                 {/* <li className="contact-us-li">
