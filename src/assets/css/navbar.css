@@ -186,6 +186,9 @@ nav .nav-wrapper {
 nav .brand-logo {
     position: relative;
 }
+.sidenav {
+    background-color: #0A0B09;
+}
 
 @media(min-width: 993px) {}
 

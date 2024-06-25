@@ -52,12 +52,29 @@ header#home > .container {
 }
 
 
-@media(max-width: 992px) {}
+@media(max-width: 992px) {
+    .header-txt-side h1 {
+        font-size: 52px;
+    }
+}
 
 @media(max-width: 600px) {
+    header#home {
+        height: auto;
+        padding: 100px 0;
+    }
+    .header-txt-side {
+        text-align: center;
+    }
+    .header-txt-side h1 {
+        font-size: 45px;
+    }
     .header-content-wrapper {
         grid-template-columns: 100%;
         gap: 30px;
+    }
+    .header-img-side img {
+        width: 100%;
     }
 }
 /*---=== end of Landing Section ===---*/
@@ -84,9 +101,6 @@ h2.section-title {
     font-size: 52px;
     font-family: var(--font-bold);
 }
-section#about p {
-    text-align: center;
-}
 
 @media(min-width: 993px) {
     .just-txt {
@@ -98,8 +112,8 @@ section#about p {
 @media(max-width: 992px) {}
 
 @media(max-width: 600px) {
-    section#about p {
-        text-align: left;
+    h2.section-title {
+        font-size: 38px
     }
 }
 /*---=== end of About Section ===---*/
@@ -200,5 +214,16 @@ section#testimonials::before {
 
 @media(max-width: 992px) {}
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+    .testimonials-wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .testimony-block {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 /*---=== end of Testimonies Section ===---*/

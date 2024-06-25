@@ -34,7 +34,7 @@ const Navbar = () => {
                         <ul className="dn-mobile ul-nav" id="nav-mobile-2">
                             <li>
                                 <a href="#!" data-target="slide-out" className="sidenav-trigger sec-color right">
-                                    <img src={require("../assets/images/menu.svg")} alt="menu" />
+                                    <img src={require("../assets/images/menu.svg").default} alt="menu" />
                                 </a>
                             </li>
                         </ul>

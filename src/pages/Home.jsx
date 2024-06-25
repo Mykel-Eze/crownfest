@@ -25,7 +25,7 @@ const Home = () => {
                     <div className="container rel">
                         <h2 className="section-title center">About CrownForte</h2>
                         <div className="just-txt">
-                            <p>
+                            <p className="center">
                                 CrownForte is a cutting-edge SaaS platform designed to revolutionize talent acquisition and business
                                 consulting. Our AI-driven solutions help startups and SMEs streamline recruitment processes, enhance
                                 operational efficiency, and drive business growth. With a focus on the IT, telecom, manufacturing, and

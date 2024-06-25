@@ -12,9 +12,9 @@ const Footer = () => {
 
     return (
         <footer>
-            <div className="container">
+            <div className="container rel">
                 <div className="footer-wrapper">
-                    <div className="footer-block">
+                    <div className="footer-block footer-logo-div">
                         <a href="#home">
                             <img src={require("../assets/images/logo.png")} alt="Crownforte" className="footer-logo" />
                         </a>
