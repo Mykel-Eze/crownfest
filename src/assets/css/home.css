@@ -1,0 +1,91 @@
+/*---=== Landing Section ===---*/
+header#home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    min-height: 620px;
+}
+header#home::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(../images/wave.svg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+header#home > .container {
+    display: flex;
+    align-items: center;
+}
+.header-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.header-img-side {
+    text-align: right;
+}
+.header-img-side img {
+    width: 90%;
+}
+.header-txt-side h1  {
+    font-size: 64px;
+    font-family: var(--font-bold);
+}
+.header-txt-side p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.cta-btn {
+    font-size: 16px;
+    padding: 15px 35px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    .header-content-wrapper {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+}
+/*---=== end of Landing Section ===---*/
+
+/*---=== About Section ===---*/
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/*---=== end of About Section ===---*/
+
+/*---=== Services Section ===---*/
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/*---=== end of Services Section ===---*/
+
+/*---=== Testimonies Section ===---*/
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/*---=== end of Testimonies Section ===---*/
+
+/*---=== CTA-Widget Section ===---*/
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {}
+/*---=== end of CTA-Widget Section ===---*/
