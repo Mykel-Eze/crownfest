@@ -216,7 +216,6 @@ nav .brand-logo {
     }
 
     nav .sidenav-trigger {
-        top: 10px;
         padding-right: 0;
     }
 
@@ -233,7 +232,7 @@ nav .brand-logo {
 
     .sidenav-trigger img {
         width: 40px;
-        top: 5px;
+        top: 10px;
         position: relative;
     }
 
@@ -256,6 +255,17 @@ nav .brand-logo {
 
     .sidenav li.contact-us-li.hul-1 {
         bottom: 135px;
+    }
+
+    .sidenav li>a {
+        color: rgba(241, 241, 241, 0.87);
+        display: block;
+        font-size: 24px;
+        font-weight: 500;
+        height: 56px;
+        line-height: 56px;
+        padding: 0 32px;
+        font-weight: 600;
     }
 
     .sidenav li:not(.contact-us-li) a {
@@ -285,7 +295,7 @@ nav .brand-logo {
         height: 80px;
     }
 
-    a.brand-logo img {
+    a.brand-logo {
         width: auto;
         height: 60px;
     }
@@ -299,25 +309,15 @@ nav .brand-logo {
         margin-left: 0;
     }
 
-    .sidenav li>a {
-        color: rgba(241, 241, 241, 0.87);
-        display: block;
-        font-size: 24px;
-        font-weight: 500;
-        height: 56px;
-        line-height: 56px;
-        padding: 0 32px;
-        font-weight: 600;
-    }
-
     .footer-content-block {
         padding: 0;
     }
 }
 
 @media (max-width: 360px) {
-    a.brand-logo img {
-        width: 90%;
+    a.brand-logo {
+        width: 40%;
+        height: auto;
     }
 }
 
@@ -326,8 +326,8 @@ nav .brand-logo {
         display: none;
     }
 
-    a.brand-logo img {
-        width: 70%;
+    a.brand-logo {
+        width: 50%;
     }
 
     .sidenav li:not(.contact-us-li) a {
